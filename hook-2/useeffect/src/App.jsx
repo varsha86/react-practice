@@ -7,7 +7,7 @@ const App = () => {
   const [num2, setNum2] = useState(3000)
 
   useEffect(() => {
-    setNum1(300);
+    setNum1(500);
     console.log("from useEffect");
 
     return () => {
